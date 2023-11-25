@@ -1,6 +1,6 @@
 console.log("hello i am extension)");
 
-let age = 17;
+let age = 1;
 // let grace=2;
 // age += grace
 // console.log(age)
@@ -13,8 +13,14 @@ let age = 17;
 
 if (age != 18) {
   console.log("you can drive");
-} else if (age == 0) {
+}
+ else if (age == 0) {
   console.log("are you kidding");
-} else {
+
+}
+else if (age == 1) {
+    console.log("are you kidding"); 
+}
+else {
   console.log("you cannot drive");
 }
